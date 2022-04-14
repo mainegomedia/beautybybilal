@@ -1,0 +1,31 @@
+﻿{
+	"short_name": "Beauty By Bilal",
+	"name": "Beauty By Bilal",
+	"icons": [{
+			"src": "/beautybybilal_favicon.ico/android-icon-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/beautybybilal_favicon.ico/android-icon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "./index.html",
+	"background_color": "#fff",
+	"display": "standalone",
+	"scope": "./",
+	"theme_color": "#008000"
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,526 @@
+.container 	{
+	width:960px;
+	height:auto;
+	background-color: #FFF;
+	margin-right:auto;
+	margin-left:auto;
+	clear:both;
+}
+
+.coupon_code {
+	background-color: green; 
+	text-align: center; 
+	color: white; 
+	font-family: 'Tenor Sans', sans-serif;
+}
+
+#header	{
+	width:1200px; 
+	height:103px;
+	float: left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:45px;
+
+}
+
+#navigation ul {
+	margin:0px;
+	padding:0px;
+}
+
+#main-paragraph {
+	font-family: 'Tenor Sans', sans-serif;
+	float: right;
+	width:30%;
+	height:auto;
+	font-size:16px;		
+}
+
+
+
+#navigation li	{
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight:700;
+	list-style-type:none;
+	text-align:center;
+	vertical-align:middle;
+	padding-top: 10px;
+	display:block;
+	float:left;
+	width: 150px;
+	height: 30px;
+	font-size:1.250em;
+	margin:10px;
+	border-right: 1px solid #bbb;
+}
+
+#navigation a	{
+	text-decoration:none;
+	color:#000;	
+}
+
+#navigation a:hover {
+    color: green;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  	margin-left:25%;
+	font-family: 'Tenor Sans', sans-serif;
+
+}
+
+@media only screen and (max-width:800px) {
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  margin-right:75%;
+		  z-index: 1;
+		}
+	}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+		
+#logo {
+	width:175px;
+	height:75px;
+	float:left;
+	margin-right:125px;
+	padding:13px;
+}
+
+
+#green_block1	{
+	background-color:rgb(0,153,51);
+	width:100%;
+	height:40px;
+	position:fixed;
+	z-index:2;
+}
+
+#tote	{
+	float:right;
+	display:inline-block;
+	clear:right;
+	margin-right:50px;
+	margin-left:20px;
+	margin-top:none;
+}
+
+
+.whitespace	{
+	width:auto;
+	height:10px;
+	clear:both;
+	margin-top:10px;
+}
+
+#whitespace_2	{
+	width:auto;
+	height:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#picture_box	{
+	width:100%;
+	height:auto;
+	margin-top:40px;
+	margin:auto;
+	display:block;
+	margin-right:10%;
+}
+
+
+#black_box	{
+	width:100%;
+	height:35px;
+	background-color:#000000;
+	float:right;
+	position:relative;
+	margin-right: 0%;
+
+}
+
+
+#product_1	{
+	width:500px;
+	height:auto;
+	float:left;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:1.000em;
+	margin-bottom:10px;
+	padding-top:inherit;
+}
+
+#product_2	{
+	width:500px;
+	height:auto;
+	float:right;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:18px;
+	margin-bottom:5%;
+	padding-top:inherit;
+
+}
+
+#product_3	{
+	width:500px;
+	height:auto;
+	float:left;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:18px;
+	margin-bottom:10px;
+	padding-top:inherit;
+}
+
+#product_4	{
+	width:500px;
+	height:auto;
+	float:right;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:18px;
+	margin-bottom:5%;
+	padding-top:inherit;
+}
+
+
+#footer	{
+	width:100%;
+	height:21px;
+	background-color:rgb(0,0,0);
+	clear:both;
+	margin-top:10px;
+	margin-left:auto;
+
+}
+
+#bottom	{
+	width: 100%;
+	height:40px;
+	clear: both;
+	margin-top:10px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	
+}
+
+#p2	{
+	margin-top:auto;
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	font-size:.875em;
+	font-family: 'Tenor Sans', sans-serif;
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#p2 a:hover {
+    color: green;
+}
+
+#social_media {
+	width:100%;
+	height:auto;
+	margin-top:auto;
+	margin-right:auto;
+	margin-left:auto;
+	display:inline;
+	vertical-align:middle;
+	display:block;
+	text-align:center;
+
+}
+
+#social_media li	{
+	list-style-type:none;
+	display:inline;
+	vertical-align:middle;
+	margin-left:50%;
+	margin-right:50%;
+	text-align:center;
+}
+
+#faqs	{
+	width:700px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:1.125em;
+	margin-bottom:10px;
+	clear:both;
+	
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+	
+#contactform	{
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	vertical-align:middle;
+	margin-bottom:200px;
+	
+}
+
+.button {
+	background-color:#0e0f0e;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(255,255,255);
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:1.063em;
+	padding:10px 17px;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out;
+}
+.button:hover {
+	background-color:rgb(0,153,51);
+}
+.button:active {
+	position:relative;
+	top:1px;
+	color: rgb(0,153,51);
+}
+
+.snipcart-add-item {
+	background-color:#0e0f0e;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(255,255,255);
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:.938em;
+	padding:10px 17px;
+	text-decoration:none;
+	border-style:none;
+	-webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out;
+}
+.snipcart-add-item:hover {
+	background-color:rgb(0,153,51);
+}
+.snipcart-add-item:active {
+	position:relative;
+	top:1px;
+	color: rgb(0,153,51);
+}
+
+#skin_cream_paragraph	{
+	width:330px;
+	height:auto;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size:1.000em;
+	float:left;
+	margin-left:31%;
+	margin-top:10px;
+}
+
+#quote	{
+	width:360px;
+	height:330;
+	font-family: 'Philosopher', sans-serif;
+	font-size:3.125em;
+	font-style:italic;
+	float:left;
+	margin-left:20px;
+	margin-top:0px;
+	padding-top:0px;
+
+}
+
+.p3	{
+	font-family: 'Philosopher', sans-serif;
+	font-size:1.875em;
+	font-weight:700;
+	text-transform:capitalize;
+}
+
+.title	{
+	font-family: 'Philosopher', sans-serif;
+	font-size:2.188em;
+	font-weight:700;
+	margin:5px;
+}
+
+img	{
+	max-width:100%;
+	height:auto;
+	margin-bottom:10px;
+}
+
+.container_2	{
+	width:1200px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	float:none;
+}
+
+#sub_form {
+	max-width:100%;
+	height:80px;   
+	background-color:black;
+	clear:both;
+	padding:50px;
+	padding-left:35%;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sub_form input {
+	margin-right:-4px;
+	border:none;
+	width:300px;
+	height: 50px;
+	background-color:#453E3E;
+	color: black;
+	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+#sub_form input [type="email"]
+
+{	padding-left:10px;
+}
+
+#sub_form button{
+	height:50px;
+	background-color:#FCF8F8;
+	color:#333;
+	padding-left:10px;
+	padding-right: 10px;
+	border:1px solid #333;
+	border-top-right-radius:5px;
+	border-bottom-right-radius: 5px;
+	transition: all 0.5s ease-in-out;
+}
+
+#sub_form button:hover {
+	background-color:rgb(0,153,51);
+	color: #fff;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.responsive-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.responsive-container iframe {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#front-item {
+	width: 65%;
+}
+
+@media only screen and (max-width:800px) {
+	#front-item {
+		width: 100%;
+	}
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.dropbtn {
+	display:none;	
+}
+
+@font-face {
+  font-family: 'Tenor Sans';
+  font-display: auto;
+  src: url(https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Tenor+Sans) format('woff2');
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  font-display: auto;
+  src: url(https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Tenor+Sans) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-display: auto;
+  src: url(https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Roboto) format('woff2');
+}
+
+#mc_embed_signup .button {
+	color: black;
+}
+
+mce-EMAIL {
+	color:black;
+}
+
+
+
+
+

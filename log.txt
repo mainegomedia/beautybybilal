@@ -1,0 +1,11 @@
+﻿Started: 1/18/2017 10:37 PM
+
+Connected to beautybybilal.com.
+faqs.html - error occurred - An FTP error occurred - cannot put faqs.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+
+File activity incomplete. 1 file(s) or folder(s) were not completed.
+
+Files with errors: 1
+faqs.html
+
+Finished: 1/18/2017 10:38 PM
